@@ -23,3 +23,15 @@ class ClassA{
 2.继承父类的子类，如果不重写方法，实例化（instantiate）后调取方法仍然显示之前方法的内容
 
 3.如果继承的是接口，不需要override进行覆盖，但是一定要实现接口。就是说：代码中不需要override，但是方法要重写
+
+4.搞明白了  
+```java
+ public void SetFlyBehaviour(FlyBehaviour fb)
+    {
+        FlyBehaviour = fb;
+    }
+    public void SetQuackBehaviour(QuackBehaviour qb)
+    {
+        QuackBehaviour = qb;
+    }
+```

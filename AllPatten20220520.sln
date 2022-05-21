@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatten_Duck_3", "St
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatten_Duck_4", "StrategyPatten_Duck_4\StrategyPatten_Duck_4.csproj", "{B669FB7E-9A68-4095-9E38-2BD2872E8360}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StrategyPatten_Compressor_1", "StrategyPatten_Compressor_1\StrategyPatten_Compressor_1.csproj", "{09B4BC0F-05A7-4399-B673-5600E4366F74}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B669FB7E-9A68-4095-9E38-2BD2872E8360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B669FB7E-9A68-4095-9E38-2BD2872E8360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B669FB7E-9A68-4095-9E38-2BD2872E8360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B4BC0F-05A7-4399-B673-5600E4366F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B4BC0F-05A7-4399-B673-5600E4366F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B4BC0F-05A7-4399-B673-5600E4366F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B4BC0F-05A7-4399-B673-5600E4366F74}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -3,9 +3,11 @@
  */
 MallardDuck mallard = new MallardDuck();
 mallard.PerformFly();
-//mallard.Display();
-//RubberDuck rubber = new RubberDuck();
-//rubber.Quack();
+
+
+FlyWithRocket newMallard = new FlyWithRocket();//var newMallard = new FlyWithRocket();一样效果
+mallard.SetFlyBehaviour(newMallard);//mallard.SetFlyBehaviour(new FlyWithRocket());可以省略上面一行，一样效果
+mallard.PerformFly();
 
 public interface QuackBehaviour
 {
@@ -64,6 +66,7 @@ public abstract class Duck
     public FlyBehaviour FlyBehaviour { get; set; }
     public QuackBehaviour QuackBehaviour { get; set; }
 
+    //接收传入值，确定进入哪个类
     public void SetFlyBehaviour(FlyBehaviour fb)
     {
         FlyBehaviour = fb;
@@ -116,5 +119,23 @@ public class RubberDuck : Duck
     public override void Display()
     {
         Console.WriteLine("This rubber duck squeaks。这只橡皮鸭会吱吱叫");
+    }
+}
+
+public class RedheadDuck : Duck//红头鸭
+{
+    public override void Display()
+    {
+        Console.WriteLine("This duck has red feathers on its head,I guess.");
+    }
+
+    public void Fly()
+    {
+        Console.WriteLine("我是RedheadDuck继承接口以后实例化的Fly");
+    }
+
+    public void Quack()
+    {
+        Console.WriteLine("我是RedheadDuck继承接口以后实例化的Quack");
     }
 }
