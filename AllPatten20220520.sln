@@ -17,15 +17,17 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern_Compressor_
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StrategyPattern_Compressor_2", "StrategyPatten_Compressor_2\StrategyPattern_Compressor_2.csproj", "{B5B7EBEA-7E2F-4258-ADF4-5D04C00E449C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern_Coffee", "DecoratorPattern\DecoratorPattern_Coffee.csproj", "{2141AD8A-5C1A-4623-90C1-E2FAC5E69B82}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern_Coffee", "DecoratorPattern\DecoratorPattern_Coffee.csproj", "{2141AD8A-5C1A-4623-90C1-E2FAC5E69B82}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern_Honda_Teacher", "DecoratorPattern_Honda\DecoratorPattern_Honda_Teacher.csproj", "{4EB35725-6242-4921-9125-FB7BB130750E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern_Honda_Teacher", "DecoratorPattern_Honda\DecoratorPattern_Honda_Teacher.csproj", "{4EB35725-6242-4921-9125-FB7BB130750E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern_Honda_My", "DecoratorPattern_Honda_My\DecoratorPattern_Honda_My.csproj", "{FF17FB47-6807-4362-9BD7-D112213929F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern_Honda_My", "DecoratorPattern_Honda_My\DecoratorPattern_Honda_My.csproj", "{FF17FB47-6807-4362-9BD7-D112213929F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Pattern_Coffee_1", "Factory Pattern_Coffee\Factory Pattern_Coffee_1.csproj", "{6A359157-AC12-488E-A539-2DDCD3C26AC0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern_Coffee_1", "Factory Pattern_Coffee\Factory Pattern_Coffee_1.csproj", "{6A359157-AC12-488E-A539-2DDCD3C26AC0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Factory Pattern_Coffee_2", "Factory Pattern_Coffee_2\Factory Pattern_Coffee_2.csproj", "{8451ABB1-DF01-422E-A619-70B46C23DC32}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern_Coffee_2", "Factory Pattern_Coffee_2\Factory Pattern_Coffee_2.csproj", "{8451ABB1-DF01-422E-A619-70B46C23DC32}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{8451ABB1-DF01-422E-A619-70B46C23DC32}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8451ABB1-DF01-422E-A619-70B46C23DC32}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8451ABB1-DF01-422E-A619-70B46C23DC32}.Release|Any CPU.Build.0 = Release|Any CPU
+		{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
