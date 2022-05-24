@@ -27,7 +27,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern_Coffee_1", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Factory Pattern_Coffee_2", "Factory Pattern_Coffee_2\Factory Pattern_Coffee_2.csproj", "{8451ABB1-DF01-422E-A619-70B46C23DC32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab1", "Lab1\Lab1.csproj", "{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Lab1", "Lab1\Lab1.csproj", "{992B7DF1-7BF1-454A-AD09-C1BC9AD7DAA1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
